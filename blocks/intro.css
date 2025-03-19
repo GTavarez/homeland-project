@@ -1,0 +1,28 @@
+.intro{
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin-left: 148px;
+  margin-right: 347px;
+  max-width: 785px;
+  }
+.intro__title{
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  }
+  .intro__subtitle{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  }
+  .quote__author{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  }
+  .intro__description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  }
