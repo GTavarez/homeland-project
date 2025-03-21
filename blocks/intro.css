@@ -1,28 +1,41 @@
-.intro{
+.intro {
   color: rgba(255, 255, 255, 1);
   font-family: "Inter", Arial, Helvetica, sans-serif;
   margin-left: 148px;
   margin-right: 347px;
   max-width: 785px;
-  }
-.intro__title{
+}
+.intro__title {
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  }
-  .intro__subtitle{
+  margin: auto;
+  padding-bottom: 40px;
+}
+.intro__subtitle {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  }
-  .quote__author{
+  padding-bottom: 10px;
+  margin: 0;
+}
+.quote__author {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   text-align: right;
-  }
-  .intro__description{
+  margin: 0;
+  padding-bottom: 32px;
+}
+.intro__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
+  margin: 0;
+  padding-bottom: 118px;
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 24px 0;
   }
+}
