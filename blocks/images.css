@@ -13,4 +13,13 @@
   max-width: 1184px;
 }
 @media screen and (max-width: 768px) {
+  .image__list {
+    margin: 0;
+    padding: 0 24px 0 24px;
+    max-width: 720px;
+  }
+  .images {
+    grid-template-columns: repeat(auto-fit, 284px);
+    gap: 20px;
+  }
 }

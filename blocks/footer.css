@@ -1,7 +1,7 @@
 .footer__image {
   width: 1184px;
   margin: 0 auto;
-  padding: 0 48px 92px;
+  padding: 0 48px 92px 48px;
 }
 .footer__copyright {
   margin: 0;
@@ -10,5 +10,12 @@
   justify-content: center;
   padding-bottom: 24px;
   color: rgba(255, 255, 255, 1);
-  
+}
+@media screen and (max-width: 768px) {
+  .footer__image {
+    width: 768px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0 0 88px 0;
+  }
 }
