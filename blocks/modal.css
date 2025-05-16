@@ -1,0 +1,18 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal__container {
+  max-width: 85vw;
+  max-height: 85vh;
+  background-color: aqua;
+}
