@@ -305,12 +305,25 @@
         <p class="footer__copyright">&copy;2025 Gisell Tavarez</p>
       </footer>
       <div class="modal">
-        <button class="modal__close-button"></button>
         <div class="modal__container">
-          <img src="" alt="" class="modal__image">
+          <button class="modal__close-button"></button>
+          <img src="#" alt="" class="modal__image" />
           <span class="modal__caption"></span>
         </div>
       </div>
+
+      <div class="modal" id="buy-modal">
+        <div class="modal__container">
+          <button class="modal__close-button"></button>
+          <img src="#" alt="" class="modal__image" />
+          <div class="modal__confirmation">
+            Would you like to buy this artwork?
+          </div>
+          <button class="modal__buy-button">Buy</button>
+          <button class="modal__cancel-button">Cancel</button>
+        </div>
+      </div>
     </div>
+    <script defer src="./scripts/index.js"></script>
   </body>
 </html>
