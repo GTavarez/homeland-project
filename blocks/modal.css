@@ -13,10 +13,8 @@
 }
 
 .modal__container {
-  max-width: 85vw;
-  max-height: 85vh;
   background-color: aqua;
-  max-width: 720px;
+  max-width: 750px;
   width: 100%;
   border-radius: 8px;
   background-color: #fff;
@@ -50,31 +48,40 @@
 }
 .modal__confirmation {
   display: flex;
-  flex-direction: row;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   color: black;
   margin: 0 auto;
   padding: 20px 30px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .modal__buy-button {
-  border: solid black;
+  border: 1px dashed black;
   border-radius: 8px;
   background-color: transparent;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   cursor: pointer;
+  margin: 0;
+  padding: 10px 10px;
 }
 .modal__cancel-button {
-  border: solid black;
+  border: 1px dashed black;
   border-radius: 8px;
   background-color: transparent;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   cursor: pointer;
+  padding: 10px 10px;
+}
+.modal__confirmation-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
